@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1508807320 source:d:\carlos\jorge\practica clases\main.cpp
+	<iostream>
+	"fecha.h"
+
+1508807023 d:\carlos\jorge\practica clases\include\fecha.h
+
+1508807066 source:d:\carlos\jorge\practica clases\src\fecha.cpp
+	"fecha.h"
+	<iostream>
+
