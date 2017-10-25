@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    fecha hoy(17,5,2016);
+    fecha hoy(30,2,2017);
     hoy.bisiesto();
-    hoy.sumadias(10);
+    hoy.sumadias(6);
 
     hoy.mostrarfecha();
 }

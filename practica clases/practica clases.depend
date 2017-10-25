@@ -9,9 +9,13 @@
 	"fecha.h"
 	<iostream>
 
-1508814159 source:c:\users\enterprise\documents\github\poo\practica clases\main.cpp
+1508933475 source:c:\users\enterprise\documents\github\poo\practica clases\main.cpp
 	<iostream>
 	"fecha.h"
 
 1508814159 c:\users\enterprise\documents\github\poo\practica clases\include\fecha.h
+
+1508933581 source:c:\users\enterprise\documents\github\poo\practica clases\src\fecha.cpp
+	"fecha.h"
+	<iostream>
 
