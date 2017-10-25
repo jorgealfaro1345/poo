@@ -34,11 +34,11 @@ void fecha::setdia(int _dia){
      }
 
      if (mes==1||mes==3||mes==5||mes==7||mes==8||mes==10||mes==12){
-         if (anio>31){
+         if (dia>31){
              cout<<"entrada incorrecta"<<endl;
          }
      }else{
-         dia=anio;
+         dia=_dia;
      }
 
     }
