@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
 
+
     jugador j1("Gallese", 1, "Arquero", 7);
     jugador j2("Guerrero", 9, "Delantero", 2);
     jugador j3("Cueva", 10, "Delantero", 7);
@@ -23,4 +24,18 @@ int main()
 
     equipo e1("Peru");
     e1.print();
+    jugador arreglo[10];
+    arreglo[0].setjugadores(j1);
+    arreglo[1].setjugadores(j2);
+    arreglo[2].setjugadores(j3);
+    arreglo[3].setjugadores(j4);
+    arreglo[4].setjugadores(j5);
+    arreglo[5].setjugadores(j6);
+    arreglo[6].setjugadores(j7);
+    arreglo[7].setjugadores(j8);
+    arreglo[8].setjugadores(j9);
+    arreglo[9].setjugadores(j10);
+    arreglo[10].setjugadores(j11);
+
+    arreglo[0].mensaje();
 }
