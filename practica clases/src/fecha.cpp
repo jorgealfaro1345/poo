@@ -19,18 +19,18 @@ fecha::fecha(int _dia, int _mes, int _anio)
 
 void fecha::setdia(int _dia){
     if (mes==2){
-         if(anio>28){
+         if(dia>28){
              cout<<"entrada incorrecta"<<endl;
         }else{
          dia=_dia;
         }
 
     if (mes==4||mes==6||mes==9||mes==11){
-        if (anio>30){
+        if (dia>30){
              cout<<"entrada incorrecta"<<endl;
         }
      }else{
-         dia=anio;
+         dia=_dia;
      }
 
      if (mes==1||mes==3||mes==5||mes==7||mes==8||mes==10||mes==12){
