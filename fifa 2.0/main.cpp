@@ -8,7 +8,6 @@ using namespace std;
 int main()
 {
 
-
     jugador j1("Gallese", 1, "Arquero", 7);
     jugador j2("Guerrero", 9, "Delantero", 2);
     jugador j3("Cueva", 10, "Delantero", 7);
@@ -23,8 +22,20 @@ int main()
 
 
     equipo e1("Peru");
+    e1.jugadores(j1);
+    e1.jugadores(j2);
+    e1.jugadores(j3);
+    e1.jugadores(j4);
+    e1.jugadores(j5);
+    e1.jugadores(j6);
+    e1.jugadores(j7);
+    e1.jugadores(j8);
+    e1.jugadores(j9);
+    e1.jugadores(j10);
+    e1.jugadores(j11);
+
     e1.print();
-    jugador arreglo[10];
+    /*jugador arreglo[10];
     arreglo[0].setjugadores(j1);
     arreglo[1].setjugadores(j2);
     arreglo[2].setjugadores(j3);
@@ -36,6 +47,5 @@ int main()
     arreglo[8].setjugadores(j9);
     arreglo[9].setjugadores(j10);
     arreglo[10].setjugadores(j11);
-
-    arreglo[0].mensaje();
+    */
 }

@@ -11,10 +11,10 @@ class equipo
     private:
     jugador x;
     public:
+        jugador arr[11];
         string nombre;
-        jugador lista[];
         equipo(string nombre);
-        void setjugadores(jugador x);
+        void jugadores(jugador x);
         void mensaje();
 
         void print();

@@ -19,3 +19,29 @@
 	<iostream>
 	<string>
 
+1508475684 source:c:\users\enterprise\documents\github\poo\fifa 2.0\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+	<string>
+
+1509085601 c:\users\enterprise\documents\github\poo\fifa 2.0\include\jugador.h
+	<iostream>
+	<string>
+
+1509084907 source:c:\users\enterprise\documents\github\poo\fifa 2.0\main.cpp
+	<iostream>
+	"jugador.h"
+	"equipo.h"
+	<string>
+
+1509085629 c:\users\enterprise\documents\github\poo\fifa 2.0\include\equipo.h
+	<iostream>
+	<string>
+	"jugador.h"
+
+1509085395 source:c:\users\enterprise\documents\github\poo\fifa 2.0\src\equipo.cpp
+	"equipo.h"
+	<iostream>
+	<string>
+	"jugador.h"
+

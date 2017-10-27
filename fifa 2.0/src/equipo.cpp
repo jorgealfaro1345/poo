@@ -11,18 +11,22 @@ equipo::equipo(string _nombre)
     nombre=_nombre;
 }
 
-void equipo::setjugadores(jugador x){
-    jugadores =x;
-
-}
-
-void equipo::mensaje(){
-    cout<<jugadores<<endl;
+void equipo::jugadores(jugador x){
+    for(int i=0;i<11;++i)
+    {
+        x=arr[i];
+    }
 
 }
 
 
 void equipo::print(){
-    cout<<"El equipo es: "<<nombre<<endl;
+    cout<<"El equipo es: "<<nombre<<" ; y sus integrantes son: "<<endl;
+    for(int i=0;i<11;++i)
+    {
+        arr[i].mostrar();
+    }
+
+
 
 }
