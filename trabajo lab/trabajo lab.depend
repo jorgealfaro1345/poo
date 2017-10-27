@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1509080172 source:c:\users\public\pictures\cpp\trabajo lab\src\empleado .cpp
+	"Empleado .h"
+	<string>
+	<iostream>
+
+1509081814 c:\users\public\pictures\cpp\trabajo lab\include\empleado .h
+	<string>
+	<iostream>
+	"fecha.h"
+
+1509080802 source:c:\users\public\pictures\cpp\trabajo lab\src\empresa.cpp
+	"Empresa.h"
+	<string>
+	<iostream>
+
+1509080802 c:\users\public\pictures\cpp\trabajo lab\include\empresa.h
+	<string>
+	<iostream>
+
+1509081782 source:c:\users\public\pictures\cpp\trabajo lab\main.cpp
+	<iostream>
+	<string>
+	"Empleado .h"
+	"Empresa.h"
+	"fecha.h"
+
+1509081762 c:\users\public\pictures\cpp\trabajo lab\include\fecha.h
+
