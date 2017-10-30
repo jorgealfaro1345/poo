@@ -21,31 +21,9 @@ int main()
     jugador j11("Ramos", 15, "Defensa", 2);
 
 
-    equipo e1("Peru");
-    e1.jugadores(j1);
-    e1.jugadores(j2);
-    e1.jugadores(j3);
-    e1.jugadores(j4);
-    e1.jugadores(j5);
-    e1.jugadores(j6);
-    e1.jugadores(j7);
-    e1.jugadores(j8);
-    e1.jugadores(j9);
-    e1.jugadores(j10);
-    e1.jugadores(j11);
+    jugador z[]={j1,j2,j3,j4,j5,j6,j7,j8,j9,j10};
 
-    e1.print();
-    /*jugador arreglo[10];
-    arreglo[0].setjugadores(j1);
-    arreglo[1].setjugadores(j2);
-    arreglo[2].setjugadores(j3);
-    arreglo[3].setjugadores(j4);
-    arreglo[4].setjugadores(j5);
-    arreglo[5].setjugadores(j6);
-    arreglo[6].setjugadores(j7);
-    arreglo[7].setjugadores(j8);
-    arreglo[8].setjugadores(j9);
-    arreglo[9].setjugadores(j10);
-    arreglo[10].setjugadores(j11);
-    */
+    equipo x("PERU", z);
+    return 0;
 }
+

@@ -45,3 +45,23 @@
 	<string>
 	"jugador.h"
 
+1509396178 source:d:\users\pavilion\documents\github\poo\fifa 2.0\src\jugador.cpp
+	"jugador.h"
+	<iostream>
+	<string>
+
+1509396178 d:\users\pavilion\documents\github\poo\fifa 2.0\include\jugador.h
+	<iostream>
+	<string>
+
+1509396545 source:d:\users\pavilion\documents\github\poo\fifa 2.0\main.cpp
+	<iostream>
+	"jugador.h"
+	"equipo.h"
+	<string>
+
+1509396545 d:\users\pavilion\documents\github\poo\fifa 2.0\include\equipo.h
+	<iostream>
+	<string>
+	"jugador.h"
+

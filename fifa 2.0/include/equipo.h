@@ -1,5 +1,6 @@
 #ifndef EQUIPO_H
 #define EQUIPO_H
+
 #include <iostream>
 #include <string>
 #include "jugador.h"
@@ -8,16 +9,21 @@ using namespace std;
 
 class equipo
 {
-    private:
-    jugador x;
-    public:
-        jugador arr[11];
-        string nombre;
-        equipo(string nombre);
-        void jugadores(jugador x);
-        void mensaje();
+    string nameEquip;
+    jugador jres[11];
+    jugador a;
 
-        void print();
+public:
+
+    equipo();
+    equipo(string n, jugador jres[11]);
+
+    void setNameEquipo(string);
+    void setEquipo(jugador jres[11]);
 };
 
 #endif // EQUIPO_H
+
+
+
+

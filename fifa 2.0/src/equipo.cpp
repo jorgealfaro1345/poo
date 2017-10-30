@@ -6,27 +6,25 @@
 using namespace std;
 
 
-equipo::equipo(string _nombre)
-{
-    nombre=_nombre;
+equipo::equipo(){
+    nameEquip="";
 }
 
-void equipo::jugadores(jugador x){
-    for(int i=0;i<11;++i)
-    {
-        x=arr[i];
+equipo::equipo(string n, jugador jres[11]){
+    setNameEquipo(n);
+    setEquipo(jres);
+}
+
+void equipo::setNameEquipo(string nam){
+    nameEquip=nam;
+}
+
+void equipo::setEquipo(jugador jres[11]){
+    cout<<"El nombre del EQUIPO es: "<<nameEquip<<endl;
+    cout<<endl;
+    for(int i=0; i<11 ;i++){
+        a=jres[i];
+        a.mostrar();
     }
-
 }
 
-
-void equipo::print(){
-    cout<<"El equipo es: "<<nombre<<" ; y sus integrantes son: "<<endl;
-    for(int i=0;i<11;++i)
-    {
-        arr[i].mostrar();
-    }
-
-
-
-}
